@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Portfolio</title>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="kp.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Prem Prajapati</h1>
+            <h3>And I'm a <span>Data Science Enthusiast</span></h3>
+            <p>I am a dedicated B.Tech student with a passion for data science, analytics, and building impactful solutions through technology and innovation.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/22it127-prem/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/prem028" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="Prem Resume_01-03-2025.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/Prem-1.jpg" alt="Prem Kumar">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/P-2.jpg" alt="About Prem">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I am Prem Prajapati, a passionate data science enthusiast skilled in Python, C++, data visualization (PowerBI, Excel, Matplotlib, Seaborn), and experienced with tools like VSCode, Github, and Google Colab. I enjoy solving real-world problems with data-driven solutions, analytical thinking, and teamwork. My goal is to leverage data science to drive innovation and create meaningful impact.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Technical <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Programming</h3>
+                <p>Python 3.12 (Pandas, Numpy, Tensorflow), C++ 23</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-pie-chart-alt'></i>
+                <h3>Visualization</h3>
+                <p>PowerBI, Excel, Matplotlib, Seaborn</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-laptop'></i>
+                <h3>Tools & Platform</h3>
+                <p>VSCode, Github, Google Colab</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-group'></i>
+                <h3>Soft Skills</h3>
+                <p>Analytical Thinking, Adaptability, Team Collaboration</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="portfolio" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/swadsutra-food.jpg" alt="Swadsutra Food">
+                <div class="portfolio-layer">
+                    <h4>Swadsutra Food</h4>
+                    <p>AI-powered food image recognition and recipe platform. Upload food images and get recipes instantly.</p>
+                    <a href="https://github.com/prem028/swadsutra_recipe" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/finance-hero.jpg" alt="Smart Finance System">
+                <div class="portfolio-layer">
+                    <h4>Smart Finance System</h4>
+                    <p>User-friendly finance system for managing expenses, tracking spending, and analytics.</p>
+                    <a href="https://github.com/prem028/Finance-System" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="ClipCruncher" style="height:80px; width:auto; margin:auto; display:block; background:#fff; border-radius:1rem; box-shadow:0 0 10px #0002;">
+                <div class="portfolio-layer">
+                    <h4>ClipCruncher</h4>
+                    <p>Chrome Extension for AI-powered YouTube video summarization and transcript analysis.</p>
+                    <a href="https://github.com/prem028/ClipCruncher" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formsubmit.co/prajapatipremk@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" name="Full Name" placeholder="Full Name" required>
+                <input type="email" name="Email Address" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                <input type="text" name="Email Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer (optional) -->
+    <!-- <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 by Prem Kumar | All Rights Reserved.</p>
+        </div>
+    </footer> -->
+
+    <!-- Custom JS -->
+    <script src="kp.js"></script>
+</body>
+</html> 
